@@ -16,19 +16,19 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.google.android</groupId>
+			<groupId>android</groupId>
 			<artifactId>android</artifactId>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>com.google.android</groupId>
-			<artifactId>support-v4</artifactId>
+			<groupId>android.support</groupId>
+			<artifactId>compatibility-v4</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>com.viewpagerindicator</groupId>
-			<artifactId>library</artifactId>
+			<artifactId>view-pager-indicator-library</artifactId>
 			<version>${project.version}</version>
 			<type>apklib</type>
 		</dependency>
