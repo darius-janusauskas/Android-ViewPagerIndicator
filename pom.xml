@@ -78,13 +78,13 @@
             <dependency>
                 <groupId>android</groupId>
                 <artifactId>android</artifactId>
-                <version>${android.version}</version>
+                <version>4.2.2_r2</version>
             </dependency>
 
             <dependency>
                 <groupId>android.support</groupId>
                 <artifactId>compatibility-v4</artifactId>
-                <version>${android.support.version}</version>
+                <version>12</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
