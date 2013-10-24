@@ -67,10 +67,10 @@
 
         <java.version>1.6</java.version>
         <android.version>4.2.2_r2</android.version>
-        <android.platform>16</android.platform>
-        <android.compatibility.version>12</android.compatibility.version>
+        <android.platform>18</android.platform>
+        <android.compatibility.version>18</android.compatibility.version>
 
-        <android-maven.version>3.6.0</android-maven.version>
+        <android-maven.version>3.7.1-SNAPSHOT</android-maven.version>
     </properties>
 
     <dependencyManagement>
