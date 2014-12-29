@@ -206,7 +206,8 @@ public class UnderlinePageIndicator extends View implements PageIndicator {
 
                 if (mIsDragging) {
                     mLastMotionX = x;
-                    if (mViewPager.isFakeDragging() || mViewPager.beginFakeDrag()) {
+                    // fix from https://github.com/JakeWharton/Android-ViewPagerIndicator/pull/257
+                    if (mViewPager.beginFakeDrag()) {
                         mViewPager.fakeDragBy(deltaX);
                     }
                 }
