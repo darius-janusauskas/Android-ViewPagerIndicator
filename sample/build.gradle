@@ -1,10 +1,11 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
     defaultConfig {
+        applicationId "com.viewpagerindicator.sample"
         minSdkVersion 4
         targetSdkVersion 22
         versionCode 1
@@ -20,6 +21,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-
-    compile 'com.android.support:support-v4:22.+'
+    compile project(":library")
 }

@@ -22,5 +22,13 @@ local.properties
 build.xml
 proguard-project.txt
 
-#Gradle
+# Mac OS files
+.DS_Store
+
+#Gradle files
+.gradle/
+.gradle
+.gradle/*
+
+#Build
 build/
